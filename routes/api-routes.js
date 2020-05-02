@@ -18,7 +18,7 @@ router.post("/api/notes", function(req, res) {
     console.log("newnote", newNote)
 
 
-    // newNote.routeName = newNote.id.replace(/\s+/g, "").toLowerCase();
+    
     let id = 1
     if (notes.length !== 0){
      id = notes[notes.length - 1].id + 1
